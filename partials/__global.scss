@@ -33,6 +33,10 @@ h3{
     font-weight: 300;
 }
 
+a {
+    font-style: normal;
+    text-decoration: none;
+}
 
 .nav{
     @include flex-center ();
@@ -78,12 +82,11 @@ h3{
         padding-right: 2rem;
         
         
-    }
 
-    &__bluetext{
-        color: $blue;
-        font-size: 1.125rem;
+        &--blue{
+            color: $blue;
+            font-size: 1.125rem;
+        }
     }
-
 }
 

@@ -19,6 +19,11 @@ h3 {
   font-weight: 300;
 }
 
+a {
+  font-style: normal;
+  text-decoration: none;
+}
+
 .nav {
   display: flex;
   align-items: center;
@@ -57,7 +62,7 @@ h3 {
   color: #393939;
   padding-right: 2rem;
 }
-.nav__bluetext {
+.nav__text--blue {
   color: #5BACC3;
   font-size: 1.125rem;
 }
@@ -338,7 +343,7 @@ h2 {
   margin: 1.25rem;
 }
 
-.graybackground {
+.gray {
   background-color: #F7f7f7;
   text-align: center;
   padding: 2.5rem 1.25rem;
@@ -346,7 +351,7 @@ h2 {
   display: flex;
   flex-direction: column;
 }
-.graybackground__products {
+.gray__products {
   display: flex;
   flex-direction: row;
 }

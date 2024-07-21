@@ -1,0 +1,556 @@
+body {
+  font-family: "Open Sans";
+  font-weight: 400;
+  background-color: #FFF;
+  color: #393939;
+  margin: auto;
+}
+
+h2 {
+  font-size: 3.75rem;
+  font-family: "Open Sans";
+  font-weight: 300;
+  margin: 1.25rem;
+}
+
+h3 {
+  font-size: 2.0625rem;
+  font-family: "Open Sans";
+  font-weight: 300;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff0ed;
+  justify-content: space-between;
+  padding: 2rem;
+  padding-bottom: 1rem;
+}
+.nav__title {
+  font-size: 2.0625rem;
+  font-family: "Open Sans";
+  font-weight: 300;
+  color: #393939;
+  padding-right: 2rem;
+  text-align: center;
+  display: inline-block;
+  margin-top: 0;
+}
+.nav__logo {
+  display: inline-block;
+}
+.nav__left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav__right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: flex-end;
+}
+.nav__text {
+  font-size: 1.125rem;
+  color: #393939;
+  padding-right: 2rem;
+}
+.nav__bluetext {
+  color: #5BACC3;
+  font-size: 1.125rem;
+}
+
+h3 {
+  font-size: 2.0625rem;
+  font-family: "Open Sans";
+  font-weight: 300;
+  padding: 0;
+  margin: 0;
+}
+
+div {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+section {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-family: "Open Sans";
+  font-weight: 300;
+  font-size: 3.75rem;
+}
+
+.coffee {
+  background-color: #FFF0ED;
+  margin: 0rem;
+  width: 100%;
+  display: flex;
+}
+.coffee__card {
+  display: inline-block;
+  margin-left: 10vh;
+  margin-top: 5vh;
+  margin-right: 10vh;
+  margin-bottom: 5vh;
+  text-align: center;
+  height: auto;
+  width: auto;
+}
+.coffee__format {
+  /* margin: 100px; */
+  text-align: left;
+  height: auto;
+  width: auto;
+}
+.coffee__img-container {
+  display: inline-block;
+  margin-right: 1vh;
+}
+.coffee__img-container img {
+  display: inline-block;
+  width: auto;
+  height: auto;
+}
+.coffee__text {
+  font-size: 1.125rem;
+  font-family: "Open Sans";
+  font-weight: 400;
+  /* text-align: center; */
+  text-wrap: balance;
+  width: 48.05%;
+  display: inline-block;
+  margin: 1.25rem;
+}
+
+.shop {
+  display: flex;
+  position: relative;
+  margin: 1.25rem;
+}
+.shop:active {
+  transform: translateX(8px) translateY(8px);
+}
+.shop__border {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 4.25rem;
+  width: 13.75rem;
+  border: 0.125rem solid #393939;
+  z-index: 2;
+  box-sizing: content-box;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+}
+.shop__border:active {
+  transform: translateX(8px) translateY(8px);
+}
+.shop__button {
+  background-color: #5BACC3;
+  color: #FFF;
+  font-size: 21px;
+  font-weight: 400;
+  width: 180px;
+  height: 100%;
+  border: #5BACC3;
+  border-style: solid;
+  border-width: 1.25rem;
+  text-wrap: nowrap;
+  text-align: center;
+  margin-left: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+.shop__button:active {
+  transform: translateX(8px) translateY(8px);
+}
+
+.products {
+  height: 17.5rem;
+}
+
+.banner {
+  color: #FFF;
+  background-color: #393939;
+  width: 90%;
+  margin: 1.25rem;
+  padding: 1.25rem;
+  text-align: center;
+  display: block;
+  border-color: #FFF;
+  border-style: solid;
+  border-width: 6.25rem 0rem 6.25rem 3.125rem;
+  animation: color-anim 2.5s infinite;
+}
+.banner__reg {
+  font-size: 2.8125rem;
+  font-weight: 400;
+  margin: 1.25rem;
+  font-family: "Open Sans";
+  display: inline-block;
+}
+
+.format {
+  display: flex;
+  align-items: center;
+}
+
+.card {
+  width: 20.625rem;
+  height: 27.5rem;
+  margin: 3.75rem;
+  /* it says 20 on style sheet but it didn't look like the mockup */
+  border-radius: 0.625rem;
+  box-shadow: 0 0.3125rem 0.5625rem -0.0625rem rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+}
+
+.top {
+  background-color: #FFF;
+  height: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.625rem 0.625rem 0rem 0rem;
+}
+.top__img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.625rem;
+  margin-bottom: 0.625rem;
+}
+
+.bottom {
+  background-color: #FFF0ED;
+  height: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 0rem 0rem 0.625rem 0.625rem;
+}
+
+.pink {
+  background-color: #FFF0ED;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+.pink__left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-right: 50px;
+}
+.pink__right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pink__title {
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.pink__text {
+  display: flex;
+  align-content: center;
+  justify-content: flex-end;
+  color: #5BACC3;
+  font-size: 2.0625rem;
+  font-family: "Open Sans";
+  font-weight: 300;
+}
+.pink__small {
+  color: #909090;
+  font-size: 18px;
+  font-family: "Open Sans";
+  font-weight: 300;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.view {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.view:active {
+  transform: translateX(13px) translateY(8px);
+}
+.view__border {
+  display: flex;
+  position: absolute;
+  Width: 13.75rem;
+  height: 4.25rem;
+  border: 0.125rem solid #393939;
+  z-index: 2;
+  top: -10px;
+  left: 41%; /* it doesn't work if i use -10px */
+  box-sizing: content-box;
+}
+.view__border:active {
+  transform: translateX(13px) translateY(8px);
+}
+.view__button {
+  color: #FFF;
+  font-size: 21px;
+  font-weight: 400;
+  width: 11.25rem;
+  height: 100%;
+  text-align: center;
+  background-color: #5BACC3;
+  border: #5BACC3 solid 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+.view__button:active {
+  transform: translateX(13px) translateY(8px);
+}
+
+.header2__prod {
+  text-align: center;
+  font-size: 3.75rem;
+  font-family: "Open Sans";
+  font-weight: 300;
+  margin: 1.25rem;
+}
+
+.graybackground {
+  background-color: #F7f7f7;
+  text-align: center;
+  padding: 2.5rem 1.25rem;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+}
+.graybackground__products {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer {
+  background-color: #FFF0ED;
+  margin: 0rem;
+  padding-bottom: 3rem;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-around;
+}
+.footer p {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin: 0;
+  margin-right: 1rem;
+  white-space: nowrap;
+  width: 100%;
+}
+.footer h3 {
+  align-items: flex-start;
+  margin: 1rem;
+  margin-left: 0rem;
+  margin-top: 2rem;
+}
+.footer__card {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+}
+.footer__icons {
+  display: flex;
+}
+.footer__icons a {
+  margin-right: 0.625rem;
+  margin-top: 1rem;
+}
+.footer__icons img {
+  width: 3.125rem;
+  height: auto;
+}
+
+.discount {
+  display: flex;
+  align-items: center;
+}
+.discount__wrapper {
+  position: relative;
+}
+.discount__wrapper:hover img {
+  transform: rotate(360deg);
+  transition: transform 2s linear;
+}
+.discount__image {
+  background-image: url("../assets/images/coldbrewbackground.png");
+  width: 400px;
+  padding: 20px;
+  margin: 20px;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+.discount__image:hover img {
+  transform: rotate(360deg);
+  transition: transform 2s linear;
+}
+.discount__image img {
+  width: auto;
+  height: 17.5rem;
+  margin: 1.25rem;
+  padding: 1.25rem;
+}
+.discount__image img:hover img {
+  transform: rotate(360deg);
+  transition: transform 2s linear;
+}
+.discount__border {
+  border: 0.3125rem solid #5BACC3;
+  z-index: 2;
+  box-sizing: content-box;
+  position: absolute;
+  width: 440px;
+  height: 400px;
+  top: -10px;
+  left: -10px;
+}
+.discount__border:hover img {
+  transform: rotate(360deg);
+  transition: transform 2s linear;
+}
+
+.different {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 40px;
+  margin: 40px;
+}
+.different__title {
+  font-size: 3.75rem;
+  font-family: "Open Sans";
+  font-weight: 300;
+  margin-left: 0px;
+}
+.different__text {
+  font-size: 1.125rem;
+  font-family: "Open Sans";
+  font-weight: 400;
+  text-wrap: balance;
+  width: 100%;
+}
+.different__icons {
+  display: flex;
+  align-content: flex-start;
+  justify-content: space-between;
+  width: 48.05%;
+  margin-top: 20px;
+}
+.different__icons img {
+  width: 3.125rem;
+  height: auto;
+}
+.different__wrapper {
+  position: relative;
+  display: flex;
+  margin: 1.25rem;
+  justify-content: flex-end;
+}
+.different__wrapper:active {
+  transform: translateX(8px) translateY(8px);
+}
+.different__border {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  height: 4.25rem;
+  width: 13.75rem;
+  border: 0.125rem solid #393939;
+  z-index: 2;
+  box-sizing: content-box;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+}
+.different__border:active {
+  transform: translateX(8px) translateY(8px);
+}
+.different__button {
+  background-color: #5BACC3;
+  color: #FFF;
+  font-size: 21px;
+  font-weight: 400;
+  width: 180px;
+  height: 100%;
+  border: #5BACC3;
+  border-style: solid;
+  border-width: 1.25rem;
+  text-wrap: nowrap;
+  text-align: center;
+  margin-left: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+.different__button:active {
+  transform: translateX(8px) translateY(8px);
+}
+
+.beans {
+  display: flex;
+  position: relative;
+}
+.beans__first {
+  position: relative;
+  width: 120px;
+  height: 100%;
+  opacity: 25%;
+  bottom: -80px;
+  left: 140px;
+}
+.beans__second {
+  position: absolute;
+  width: 120px;
+  height: 100%;
+  opacity: 25%;
+  left: -1260px;
+}
+
+@keyframes color-anim {
+  0% {
+    background: #393939;
+  }
+  100% {
+    background: #5BACC3;
+  }
+}/*# sourceMappingURL=landing.css.map */

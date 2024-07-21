@@ -1,0 +1,148 @@
+@use '../partials/_global' as *;
+
+.nav__title {
+    margin: 0;
+}
+
+
+.menu {
+    background-image: url("../assets/images/coffee-circle.png");
+    background-position: center; 
+    height: 43.75rem;
+    width: 100%;
+    background-size: cover;
+    @include flex-center (); 
+
+    &__wrapper {
+        position: relative; 
+    }
+    &__box{
+        background-color: $graphite;
+        height: 12.5rem;
+        width: 18.75rem;
+        font-size: 3.75rem; 
+        font-weight: 300; 
+        font-family: 'Open Sans';
+        color: $white; 
+        @include flex-center();
+        position: relative;
+        z-index: 1;
+            
+        &--border {
+            height: 12.5rem;
+            width: 18.75rem;
+            position: absolute;
+            @include flex-center();
+            border: .3125rem solid $blue; 
+            z-index: 2;
+            box-sizing: content-box;
+            top:  -20px;
+            left: -20px; 
+        }
+    }
+
+}
+
+.options{
+    background-color:$graphite; 
+    color:$white;
+    text-align: center; 
+    width:100%;
+    height: 5rem; 
+    padding: 0;
+    margin: auto; 
+
+    & p {
+        padding-top: 1rem;
+    }
+
+
+    &__border{
+        display: inline-block;
+        border-left-color: $blue;
+        border-left-style:  solid; 
+        border-left-width: 0.25rem; 
+        padding-left: 1rem;
+        margin-right: 1rem;
+        padding-bottom: 0; 
+        margin-bottom:0;  
+        
+    }
+}
+
+
+.format {
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+    @include flex-center ();
+
+    & h3{
+        text-align: center; 
+        margin: auto;
+        margin-top: 20px;    
+        box-sizing: content-box;
+        width: 100%;
+        color: $graphite;
+    
+    }
+    
+    
+    & h2 {
+        text-align: center; 
+        margin: auto;
+        margin-bottom: 0.625rem;
+        padding-top: 1.25rem;
+        color: $graphite;
+    }
+
+}
+
+
+.price{
+    color: #5BACC3; 
+    text-align: center;
+    margin: auto;
+    
+}
+
+.description{
+    font-style: italic; 
+    text-align: center;
+    box-sizing: content-box;
+    width: 35%;
+    text-wrap: pretty;
+    margin: auto;
+    color: $graphite;
+
+}
+
+.hotdrinks-back{
+    background-color: $pink;
+    margin: auto;
+    @include flex-center (); 
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+    width: 100%; 
+}
+
+.colddrinks-back{
+    background-color: $light-gray;
+    margin:auto;
+    text-align: center;
+    height: 100%;
+    width: 100%; 
+    padding-top: 1rem;
+}
+
+
+
+
+
+
+
